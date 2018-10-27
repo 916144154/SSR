@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RRS聚合</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="row  sign">
+        <!-- 利用表单 -->
+        <div class="form center margin-top-3em">
+            <div>
+                <form action="" method="post">
+                    <!--action的值设置为访问者提交表单时服务器上对数据进行处理的脚本的url-->
+
+                    <h2>欢迎登录RRS博客聚合</h2>
+                    <div class="group">
+                        <div class="group-item">
+                            <input type="text" name="userName" id="userName" placeholder="账号" autofocus="autofocus"
+                                class="inner-border form-control">
+                        </div>
+                        <!-- name属性：服务器的脚本使用这个name来获取访问者在文本框中输入的值 -->
+                        <!--浏览器会自动保存用户之前输入的内容，如果输入了autocomplete="off"就不会被保存-->
+                        <!--如果没有为某一字段设置默认值，当用户提交表单时，发送到服务器的name属性就是null ，设置value="默认值"，如果用户没有输入别的内容，这一数据将会发送到服务器-->
+
+                        <div class="group-item">
+                            <input type="password" name="userPassWord" id="userPassWord" placeholder="密码" class="inner-border form-control">
+                        </div>
+                    </div>
+                    <div class="margin-top-3em">
+                        <input type="submit" disabled="disabled" value="登录" class="btn" >
+                    </div>
+
+                    <a href="">忘记密码？</a>
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer begin -->
+    <div class="footer margin-top-0em">
+        <!-- 地址栏开始 -->
+        <div class="address">
+            <p class="container">
+            
+                四川省成都市武侯区一环路南一段24号东5舍
+            </p>
+
+        </div >
+        <!-- 友情链接 -->
+        <div class="link">
+            <p class="container">
+                <h2>友情链接</h2>
+                这里是友情链接
+            </p>
+
+
+        </div>
+
+        <!-- 联系我们 -->
+        <div class="contact">
+            <p >
+                <h2>联系我们</h2>
+                杨麟 <br />
+                QQ:916144154 <br />
+                phone:18909096790 <br />
+                email:916144154@qq.com <br />
+            </p>
+
+        </div>
+
+        <!-- 所有权开始 -->
+        <div class="center">
+                Copyright 2018.  yanglin ALL Rights Reserved.
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

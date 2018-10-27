@@ -1,0 +1,247 @@
+
+.container{
+    padding-right:3em ;
+    padding-left: 3em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.sign .form{
+   
+        background-color: rgba(255,255,255,.3);
+        border-radius: 5px;
+        position: absolute;
+        left: 50%;
+        top: 30px;
+        width: 400px;
+        margin-left: -200px;
+        padding: 20px;
+
+}
+
+ a {
+    color: #92badd;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+}
+.sign input{
+    margin: 0;
+    font:inherit;
+}
+
+   .sign .group{
+    border-radius:2px;
+}
+  .sign .group-item{
+    position: relative;
+    display: block;
+    margin-bottom: -1px;
+    background-color:#fff;
+    border: 1px solid #ddd;
+    padding: 6px 10px;
+}
+
+
+
+.sign .form-control{
+    width: 90%;
+    height: 34px;
+    padding: 6px 12px;
+    background-color:#fff;
+    border:1px solid #ccc;
+}
+  .sign .form-control:focus {
+    border-color: #ffffff;
+}
+
+   .sign .inner-border{
+    border-color: transparent;
+    border-width: 0;
+
+}
+  .sign .group-item:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.center{
+    text-align: center;
+}
+.row{
+    height:40em;
+    background: url(5.jpg);
+    background-size: cover;
+}
+.sign .btn{
+    background-color: #3895e2;
+    
+    padding-left: 12px;
+    padding-right:12px;
+    border-radius: 2px;
+    margin-bottom: 0;
+    width: 90%;
+    height: 52px;
+    border-radius: 43px;
+    border-style:none;
+    
+}
+.margin-top-3em{
+  margin-top: 3em;
+}
+.footer{
+    background-color: #494e60;
+    color: #b0b0b0
+}
+.margin-top-0em{
+    margin-top: 0;
+
+}
+.address{
+    
+    float: left;
+    width: 33.333%;
+}
+.link{
+   
+    float: left;
+    width: 33.333%;
+
+}
+.contact{
+   
+    float: left;
+    width: 33.333%;
+}
+
+/* 这里是推荐部分的样式设置 */
+
+.recommend{
+    width: 600px;
+    margin: 30px auto;
+    position: relative;
+    border-radius: 10px;
+}
+.recommend-content{
+    position: relative;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #999;
+border: 1px solid rgba(0,0,0,.2);
+border-radius: 6px;
+outline: 0;
+-webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+box-shadow: 0 3px 9px rgba(0,0,0,.5)
+}
+
+.recommend .recommend-body{
+    margin-left: 4.5em;
+    margin-right: 4.5em;
+}
+
+.recommend  form img {
+    height: 5em;
+    width: 5em;
+    display: block;
+  
+}
+.recommend .header a.active {
+    color: #fff;
+    background-color:#3895e2;
+}
+
+.recommend .header a.active::after{
+border-left-color: #3895e2;
+}
+
+
+.recommend .header a{
+    
+    position: relative;
+    display: block;
+    padding: 10px;
+        padding-right: 10px;
+    padding-right: 0 !important;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    color: #888;
+    cursor: pointer;
+    margin: auto;
+}
+
+.recommend .header li .reading-icon{
+    padding-left: 1em;
+    margin-left: 1em;
+}
+.recommend .header li .txt{
+    line-height: 2em;
+}
+
+.margin-bottom-2em{
+    margin-bottom: 2em;
+}
+
+.recommend .header a::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 1;
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 22px solid transparent;
+    border-bottom: 22px solid transparent;
+    border-left: 16px solid transparent;
+        border-left-color: transparent;
+
+}
+.recommend .header a  .number{
+    box-sizing: content-box;
+display: inline-block;
+width: 20px;
+height: 20px;
+margin-right: 5px;
+margin-left: 13px;
+border: 2px solid #aaa;
+   
+border-radius: 50%;
+text-align: center;
+line-height: 21px;
+
+}
+
+.recommend .header ul{
+    list-style: none;
+    height: 3em;
+    overflow: hidden;
+     background:#b0b0b017;
+     margin-top: 0px;
+     padding-left:0;
+}
+.recommend .header li{
+   
+    float: left;
+    max-width:20% ; 
+    text-align: center;
+}
+
+
+
+   .recommend form a{
+    padding: 1em;
+    border: 1px solid #ddd ;
+    border-radius: 11px;
+}
+
+.recommend-body .recomend-button{
+    margin-bottom: 1em;
+}
+.recommend-body .button-control{
+    width: 10em;
+    background-color: #3895e2;
+    border-style: none;
+    height:3em;
+    border-radius: 9px;
+
+}
